@@ -1,0 +1,98 @@
+
+.todo-item {
+    position: relative;
+    width: 272px;
+    background-color: #ebecf0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    max-height: 100%;
+    position: relative;
+    background-color: #d6d6d8;
+    white-space: normal;
+    margin: 10px;
+    padding: 5px;
+    margin: 0 4px;
+     }
+
+    .top {
+        padding: 10px;
+    }
+
+    .add-todos {
+        margin: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 3px;
+        padding: 10px;
+        min-width: 260px;
+        height: 40px;
+        background-color: #fff;
+        &:hover {
+            background-color: #d6d6d8;
+        }
+    }
+
+    .cardAdds {
+        margin: 10px;
+        background-color: #e9e9e9;
+        padding: 10px;
+        height: 117px ;
+        border-radius: 3px;
+        textarea {
+            border-radius: 3px;
+            width: 260px;
+            border: none;
+            box-shadow: none;
+            background: #fff;
+            height: auto;
+            margin-bottom: 4px;
+            max-height: 162px;
+            overflow-y: auto;
+            padding: 0;
+            overflow: hidden;
+            overflow-wrap: break-word;
+            resize: none;
+            height: 54px;
+
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        button {
+            font-size: 1rem;
+            border: none;
+            margin: 0 5px;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 3px;
+        }
+
+        .add {
+            background-color: rgb(64, 152, 224);
+            color: #fff;
+            transition: ease 0.2s;
+
+            &:hover {
+                background-color: rgb(52, 118, 172);
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .close {
+            background-color: transparent;
+            transition: ease 0.2s;
+
+            &:hover {
+                background-color: #d6d6d8;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }

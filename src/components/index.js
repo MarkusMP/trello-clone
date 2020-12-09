@@ -1,2 +1,3 @@
 export {default as Header} from './Header/Header'
-export {default as Todo} from './Todo/Todo'
+export {default as Cards} from './Cards/Cards'
+export {default as ColorCard} from './ColorCard/ColorCard'

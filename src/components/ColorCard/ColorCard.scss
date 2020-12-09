@@ -1,0 +1,23 @@
+.color-card-container{
+width: 100%;
+display: flex;
+justify-content: center;
+
+    .color-card{
+        margin: 10px 0;
+        width: 250px;
+        height: 250px;
+        cursor: pointer;
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            -webkit-text-stroke: 0.1px white;
+            -webkit-text-fill-color: black;
+            font-size: 2.4rem;
+        
+        }
+    }
+}
+

@@ -1,0 +1,159 @@
+.list-wrapper {
+    width: 272px;
+    margin: 0 4px;
+    height: 500px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    margin: 10px;
+
+
+    .todo-item {
+        width: 272px;
+        background-color: #ebecf0;
+        border-radius: 3px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-height: 100%;
+        position: relative;
+        white-space: normal;
+     
+        padding: 5px;
+
+        .tops {
+            input{
+                padding: 10px;
+                width: 260px;
+                margin: 5px 0px;
+                border-radius: 3px;
+                border: none;
+                font-size: 15px;
+
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+
+        .top {
+            padding: 10px;
+            cursor: pointer;;
+            border-radius: 3px;
+            width: 260px;
+            margin: 5px 0px;
+
+            input{
+                width: 100%;
+                height: 100%;
+            }
+            &:hover {
+                background-color: #d6d6d8;
+            }
+
+        }
+
+        .add-todo {
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 3px;
+            padding: 10px;
+            width: 260px;
+            margin: auto;
+            height: 40px;
+
+            &:hover {
+                background-color: #d6d6d8;
+            }
+        }
+
+        .cardAdd {
+         
+            textarea {
+                border-radius: 3px;
+                width: 260px;
+                border: none;
+                box-shadow: none;
+                background: #fff;
+                height: auto;
+                margin-bottom: 4px;
+                max-height: 162px;
+                overflow-y: auto;
+                padding: 0;
+                overflow: hidden;
+                overflow-wrap: break-word;
+                resize: none;
+                height: 54px;
+
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            button {
+                font-size: 1rem;
+                border: none;
+                margin: 0 5px;
+                cursor: pointer;
+                padding: 5px;
+                border-radius: 3px;
+            }
+
+            .add {
+                background-color: rgb(64, 152, 224);
+                color: #fff;
+                transition: ease 0.2s;
+
+                &:hover {
+                    background-color: rgb(52, 118, 172);
+                }
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            .close {
+                background-color: transparent;
+                transition: ease 0.2s;
+
+                &:hover {
+                    background-color: #d6d6d8;
+                }
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+
+
+    }
+
+    .removeList{
+        background-color: rgb(197, 0, 0);
+        color: #f3f3f3;
+        margin: auto;
+        border: none;
+        padding: 7px 10px;
+        margin-top: 5px;
+        border-radius: 3px;
+        width: 100%;
+        cursor: pointer;
+        transition: 0.2s ease;
+
+        &:hover{
+            background-color: rgb(241, 2, 2);   
+        }
+
+        &:focus{
+            outline: none;
+            border: none;
+        }
+
+    }
+}
+

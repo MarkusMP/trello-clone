@@ -9,7 +9,7 @@ const Header = () => {
         <nav>
             <div className="brand">
 <Link to="/">
-Logo
+board
 </Link>
             </div>
 
