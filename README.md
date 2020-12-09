@@ -1,6 +1,6 @@
 <h1>Trello Clone</h1>
 
-<a href="https://eager-jang-356ed5.netlify.app" target="_blank">Preview App</a>
+<a href="https://wonderful-chandrasekhar-bf809e.netlify.app/" target="_blank">Preview App</a>
 
 This was build with
 <ul>
